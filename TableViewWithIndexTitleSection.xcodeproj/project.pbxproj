@@ -14,6 +14,8 @@
 		3C4542F323608183006C84CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4542F123608183006C84CC /* LaunchScreen.storyboard */; };
 		3C4542FE23608183006C84CC /* TableViewWithIndexTitleSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4542FD23608183006C84CC /* TableViewWithIndexTitleSectionTests.swift */; };
 		3C45430923608183006C84CC /* TableViewWithIndexTitleSectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C45430823608183006C84CC /* TableViewWithIndexTitleSectionUITests.swift */; };
+		3CD1EA1E236C3581008E573E /* FriendsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD1EA1D236C3581008E573E /* FriendsListCell.xib */; };
+		3CD1EA20236C3599008E573E /* FriendsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1EA1F236C3599008E573E /* FriendsListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3C45430423608183006C84CC /* TableViewWithIndexTitleSectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewWithIndexTitleSectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C45430823608183006C84CC /* TableViewWithIndexTitleSectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithIndexTitleSectionUITests.swift; sourceTree = "<group>"; };
 		3C45430A23608183006C84CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD1EA1D236C3581008E573E /* FriendsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsListCell.xib; sourceTree = "<group>"; };
+		3CD1EA1F236C3599008E573E /* FriendsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				3C4542E82360817D006C84CC /* AppDelegate.swift */,
 				3C4542EA2360817D006C84CC /* ViewController.swift */,
+				3CD1EA1F236C3599008E573E /* FriendsListCell.swift */,
+				3CD1EA1D236C3581008E573E /* FriendsListCell.xib */,
 				3C4542EC2360817D006C84CC /* Main.storyboard */,
 				3C4542EF23608183006C84CC /* Assets.xcassets */,
 				3C4542F123608183006C84CC /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 				3C4542F323608183006C84CC /* LaunchScreen.storyboard in Resources */,
 				3C4542F023608183006C84CC /* Assets.xcassets in Resources */,
 				3C4542EE2360817D006C84CC /* Main.storyboard in Resources */,
+				3CD1EA1E236C3581008E573E /* FriendsListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				3C4542EB2360817D006C84CC /* ViewController.swift in Sources */,
 				3C4542E92360817D006C84CC /* AppDelegate.swift in Sources */,
+				3CD1EA20236C3599008E573E /* FriendsListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
